@@ -1,0 +1,498 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: row;
+    height: 5vh;
+    font-family: "Cairo", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    padding-top: 12px;
+}
+
+
+header svg {
+    fill: #252525;
+    height: 14px;
+}
+
+#EspacoEmail {
+    padding-left: 380px;
+    padding-right: 10px;
+}
+
+#EspacoFacebook {
+    padding-left: 400px;
+}
+
+.EspacoSimples {
+    padding-left: 20px;
+}
+
+.traco {
+    opacity: 0.3;
+    font-weight: 300;
+}
+
+
+
+.lingua {
+    position: relative;
+}
+
+.linguadrop {
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    top: 150vh;
+    transition: top 1s, opacity 0.5s;
+    opacity: 0;
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 50px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.lingua:hover .linguadrop {
+    top: 20px;
+    opacity: 1;
+}
+
+.Espaco {
+    margin-left: 10px;
+
+}
+
+
+main {
+    display: grid;
+    font-family: "Cairo", sans-serif;
+    font-weight: bold;
+}
+
+main svg {
+    fill: #252525;
+    height: 18px;
+}
+
+.destacado {
+    color: #7fad39;
+}
+
+.nav {
+    margin-left: 350px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin-right: 400px;
+}
+
+.pags {
+    margin-top: 26px;
+}
+
+#contactPadding {
+    margin-right: 150px;
+}
+
+.zeroPadding {
+    margin-right: 20px;
+    margin-left: 0px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.light {
+    font-weight: 400;
+}
+
+#logo {
+    padding-top: 16px;
+    margin-right: 100px;
+}
+
+
+
+.drop {
+    position: relative;
+}
+
+.dropmenu {
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    top: 150vh;
+    opacity: 0;
+    transition: top 0.3s, opacity 1s;
+    background-color: black;
+    color: white;
+    width: 160px;
+    height: 130px;
+    padding-left: 15px;
+    padding-top: 5px;
+    margin-top: 7px;
+}
+
+.drop:hover .dropmenu {
+    top: 20px;
+    opacity: 1;
+}
+
+
+
+
+.destacar:hover {
+    color: #7fad39;
+}
+
+.destacar {
+    transition: 0.5s;
+}
+
+
+.departaments {
+    color: white;
+    background-color: #7fad39;
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 20px 120px 20px;
+    grid-template-rows: 20px;
+    height: 45px;
+    margin-right: 20px;
+    padding-top: 10px;
+}
+
+.departaments svg {
+    fill: white;
+}
+
+
+
+.departaments {
+    position: relative;
+}
+
+.dropDepartaments {
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    top: 200vh;
+    transition: top 1s, opacity 0.5s;
+    opacity: 0;
+    background-color: white;
+    color: black;
+    border: solid 1px;
+    border-color: #ebebeb;
+    width: 260px;
+    height: 400px;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-top: 25px;
+    font-size: 16px;
+}
+
+.departaments:hover .dropDepartaments {
+    top: 20px;
+    opacity: 1;
+}
+
+
+
+.botaoPesquisa {
+    color: white;
+    background-color: #7fad39;
+    text-align: center;
+    height: 45px;
+    border: none;
+    font-weight: 800;
+}
+
+.barraPesquisa input {
+    border: none;
+    height: 100%;
+    padding-left: 5px;
+    width: 65%;
+}
+
+.barraPesquisa {
+    height: 45px;
+    border: solid 1px;
+    padding-left: 11px;
+    border-color: #ebebeb;
+}
+
+.nav2 {
+    display: grid;
+    grid-template-columns: 1.3fr 1fr 500px 110px 90px 1fr 1fr;
+}
+
+.lightsupport {
+    font-size: 14px;
+    color: #6f6f6f;
+    font-weight: 400;
+}
+
+.nav2 svg {
+    height: 14px;
+}
+
+.tel {
+    padding-right: 10px;
+    margin-left: 40px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 20px;
+    margin-right: 10px;
+    background-color: #f5f5f5;
+    border-radius: 100%;
+    margin-bottom: 15px;
+}
+
+.tel svg {
+    height: 14px;
+    fill: #7fad39;
+}
+
+#corpoSite {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1.5fr 840px 1fr;
+    grid-template-rows: 50vh;
+}
+
+.fruitFresh {
+    display: grid;
+    background-color: #f5f5f5;
+    padding: 100px;
+    background-image: url(banner.jpg.webp);
+}
+
+.fruitFresh input {
+    width: 20%;
+    margin-top: 30px;
+}
+
+.subtituloFruitFresh {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 4px;
+    color: #7fad39;
+}
+
+.fruitFresh h1 {
+    font-size: 46px;
+    color: #252525;
+    line-height: 52px;
+    font-weight: 800;
+}
+
+#corpoSite2 {
+    display: grid;
+    grid-template-columns: 1fr 300px 300px 300px 300px 1fr;
+    grid-template-rows: 35vh;
+
+}
+
+.fundoCinza {
+    text-align: center;
+    background-color: #f5f5f5;
+    padding-top: 220px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+.vegetables {
+    background-image: url(cat-3.jpg);
+}
+
+.drinkFruits1 {
+    background-image: url(cat-4.jpg);
+}
+
+.drinkFruits2 {
+    background-image: url(cat-5.jpg);
+}
+
+.freshfruit {
+    background-image: url(cat-1.jpg);
+}
+
+#featuredProduct {margin-top: 60px;
+    text-align: center;
+}
+
+.faixaVerde{height: 5px;
+    width: 4%;
+    margin-left: 930px;
+    background-color: #7fad39;
+}
+
+#featuredProduct ul{font-weight: 500;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 700px;
+    margin-right: 700px;
+    padding-top: 20px;
+} 
+
+.fp2{
+    display: grid;
+    grid-template-columns: 1fr 300px 300px 300px 300px 1fr;
+    grid-template-rows: 35vh ;
+}
+
+.carne{
+    background-image: url(cat-5.jpg);
+}
+
+.banana{
+    background-image: url(feature-2.jpg);
+}
+
+.goiaba{
+    background-image: url(feature-3.jpg);
+}
+
+.melancia{
+    background-image: url(feature-4.jpg);
+}
+
+.uva{
+    background-image: url(feature-5.jpg);
+}
+
+.hamburger{
+    background-image: url(feature-6.jpg);
+}
+
+.manga{
+    background-image: url(feature-7.jpg);
+}
+
+.maca{
+    background-image: url(feature-8.jpg);
+}
+
+.imagens{
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 600px 600px 1fr;
+    grid-template-rows: 35vh ;
+}
+
+#titulo{font-size: 12px;
+    display: grid;
+    grid-template-columns: 370px 320px 30px 70px 320px 30px 70px 250px 30px 30px 1fr;
+}
+
+#latestProducts{padding-top: 20px;
+    display: grid;
+    grid-template-columns: 350px  130px 300px 130px 300px 130px 300px 300px;
+}
+
+.folha{
+    margin-right: 20px ;
+    margin-bottom: 20px;
+}
+
+.legume{
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.coxinha{
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.fundoCinza2{
+    background-color: #f5f5f5;
+}
+
+#Blog h1{margin-top: 20px;
+    text-align: center;
+    color: #1c1c1c;
+    font-weight: 900;
+    font-size: 36px
+}
+
+#blog1{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 350px 400px 400px 400px 1fr;
+}
+
+.data{
+    font-size: 16px;
+    color: #b2b2b2;
+    font-weight: 400;
+}
+
+.data svg{
+    fill: #b2b2b2;
+}
+
+#rodape{font-weight: 400;
+    text-align: center;
+    height: 40vh;
+    background-color: #F3F6FA;
+    margin-top: 60px;
+}
+
+.azul{
+    color: #007bff;
+    padding-right: 280px;
+}
+
+#rodape1{
+    text-align: left;
+    padding-top: 60px;
+    display: grid;
+    grid-template-columns: 350px 400px 200px 200px 400px 1fr;
+    padding-bottom: 40px ;
+}
+
+#rodape1 h1{
+    color: #1c1c1c;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+#paddingtop{
+    padding-top: 20px;
+}
+
+.email1{margin-top: 15px;
+    margin-left: 0;
+    border: solid 1px;
+    padding-left: 11px;
+    border-color: #ebebeb;
+    width: 60%;
+    height: 45px;
+    margin-bottom: 15px;
+}
+
+.icones{width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icones svg{border-radius: 100%;
+    height: 20px;
+}
